@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tribute to Galileo</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Varela+Round&family=Ysabeau+Office:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><a href="https://en.wikipedia.org/wiki/Galileo_Galilei" target="_blank"
+                style="text-decoration: none;">Tribute
+                to Galileo</a></h1>
+    </header>
+
+    <div class="container">
+        <div class="image-container">
+            <img src="galileo.webp" alt="Galileo" id="galileo-image">
+            <br>
+            <button id="tg-img" onclick="toggleImageSize()">Toggle Image Size</button>
+        </div>
+
+        <div class="content">
+            <h2>About Galileo</h2>
+            <p>Galileo Galilei (1564-1642) was an Italian scientist, mathematician, and astronomer who made significant
+                contributions to the fields of physics, astronomy, and the scientific method. He is often referred to as
+                the
+                "father of modern science" and played a crucial role in the scientific revolution.<br>
+                <br>
+                Galileo's observations and discoveries challenged the prevailing geocentric view of the universe,
+                which stated that Earth was the center of the solar system. His support for the heliocentric model and
+                his belief in the
+                Copernican system led to conflicts with the Catholic Church and the Inquisition, who considered his
+                ideas heretical.
+                In 1633, Galileo was tried and convicted of heresy, leading to his house arrest for the remainder of his
+                life.
+                <br><br>
+                Apart from his astronomical work, Galileo made significant contributions to the study of physics and
+                motion. He formulated the laws of motion and conducted experiments to understand the behavior of falling
+                objects and projectiles. His work laid the foundation for Isaac Newton's later development of classical
+                mechanics.Overall, Galileo Galilei's work revolutionized our understanding of the universe and paved the
+                way for modern science. His courageous pursuit of knowledge and willingness to challenge established
+                beliefs continue to inspire scientists and thinkers to this day.
+            </p>
+
+            <h2>Major Achievements</h2>
+            <ul>
+                <li>Improvements to the Telescope: Galileo constructed and improved the telescope, which enabled him to
+                    make groundbreaking astronomical observations.</li>
+                <li>Discovery of the Galilean Moons: Using his telescope, Galileo discovered four of Jupiter's largest
+                    moons: Io, Europa, Ganymede, and Callisto. This observation provided evidence against the geocentric
+                    model of the universe.</li>
+                <li>Observations of Venus: Galileo observed the phases of Venus, which supported the heliocentric model
+                    proposed by Copernicus and challenged the geocentric view.</li>
+                <li>Laws of Motion and Mechanics: Galileo conducted experiments on falling objects and projectiles,
+                    leading him to formulate the laws of motion and lay the foundation for Isaac Newton's development of
+                    classical mechanics.</li>
+                <li>Experimental Confirmation of Aristotle's Theories: Galileo conducted experiments that challenged
+                    Aristotle's theories on motion and demonstrated that objects of different weights fall at the same
+                    rate in a vacuum.</li>
+                <li>Theory of Tides: Galileo proposed a theory to explain the tides, linking them to the gravitational
+                    pull of the Moon and the rotation of the Earth.</li>
+                <li>Development of the Scientific Method: Galileo emphasized observation, experimentation, and empirical
+                    evidence as the foundations of scientific inquiry, laying the groundwork for the scientific method.
+                </li>
+                <li>Support for Copernicanism: Galileo openly supported the heliocentric model of the solar system
+                    proposed by Copernicus, despite opposition from the Catholic Church and the Inquisition.</li>
+                <li>Written Works: Galileo's written works, including "Dialogue Concerning the Two Chief World Systems,"
+                    presented his scientific ideas and arguments, shaping the discourse on astronomy and science.</li>
+                <li>Influence on Modern Science: Galileo's achievements and advocacy for the scientific method had a
+                    profound impact on the development of modern science, inspiring future generations of scientists and
+                    thinkers.</li>
+            </ul>
+            <p>These are just a few of the major achievements of Galileo Galilei, and his contributions continue to be
+                celebrated and studied in the fields of astronomy, physics, and the scientific method.</p>
+            <h2>Quotes</h2>
+            <p>Click the button below to show a random Galileo quote:</p><br>
+            <button id="qt-btn" onclick="showRandomQuote()">Show Random Quote</button>
+            <p id="quote-text"></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created by Swagat Das</p>
+    </footer>
+</body>
+
+</html>
